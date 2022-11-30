@@ -10,7 +10,7 @@ Original file is located at
 import streamlit as st
 st.title ('Subtraction  of two Numbers')
 num1=st.number_input('First NUmber',format="%g")
-num2=st.number_input('First NUmber',format="%g")
+num2=st.number_input('Second NUmber',format="%g")
 difference=num1-num2
 if st.button('Subtract'):
   st.write('({})-({}))={}'.format(num1,num2,difference))
