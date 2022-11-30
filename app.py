@@ -14,4 +14,4 @@ num2=st.number_input('Second NUmber',format="%g")
 difference=num1-num2
 if st.button('Subtract'):
   #st.write('({})-({}))={}'.format(num1,num2,difference))
-  st.write('Subtraction of numbers {} and {} is equal to{}'.format(num1,num2,difference))
+  st.write('Subtraction of numbers {} and {} is equal to {}'.format(num1,num2,difference))
